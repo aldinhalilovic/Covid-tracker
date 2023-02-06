@@ -72,9 +72,7 @@ const countries = [
   { code: "AL", searchName: "Albania", label: "Albania", phone: "355" },
   { code: "AM", searchName: "Armenia", label: "Armenia", phone: "374" },
   { code: "AO", searchName: "Angola", label: "Angola", phone: "244" },
-  // { code: "AQ", searchName: "Antarctica", label: "Antarctica", phone: "672" },
   { code: "AR", searchName: "Argentina", label: "Argentina", phone: "54" },
-  // { code: "AS", label: "American Samoa", phone: "1-684" },
   { code: "AT", searchName: "Austria", label: "Austria", phone: "43" },
   {
     code: "AU",
@@ -84,7 +82,6 @@ const countries = [
     suggested: true,
   },
   { code: "AW", searchName: "Aruba", label: "Aruba", phone: "297" },
-  // { code: "AX", searchName: "Alland Islands", label: "Alland Islands", phone: "358" },
   { code: "AZ", searchName: "Azerbaijan", label: "Azerbaijan", phone: "994" },
   {
     code: "BA",
@@ -127,7 +124,6 @@ const countries = [
   { code: "BR", searchName: "Brazil", label: "Brazil", phone: "55" },
   { code: "BS", searchName: "Bahamas", label: "Bahamas", phone: "1-242" },
   { code: "BT", searchName: "Bhutan", label: "Bhutan", phone: "975" },
-  // { code: "BV", searchName: "Brazil", label: "Bouvet Island", phone: "47" },
   { code: "BW", searchName: "Botswana", label: "Botswana", phone: "267" },
   { code: "BY", searchName: "Belarus", label: "Belarus", phone: "375" },
   { code: "BZ", searchName: "Belize", label: "Belize", phone: "501" },
@@ -138,12 +134,6 @@ const countries = [
     phone: "1",
     suggested: true,
   },
-  // {
-  //   code: "CC",
-  //   searchName: "Canada",
-  //   label: "Cocos (Keeling) Islands",
-  //   phone: "61",
-  // },
   {
     code: "CD",
     searchName: "Congo",
@@ -183,12 +173,6 @@ const countries = [
   { code: "CU", searchName: "Cuba", label: "Cuba", phone: "53" },
   { code: "CV", searchName: "Cabo-Verde", label: "Cape Verde", phone: "238" },
   { code: "CW", searchName: "Cura&ccedil;ao", label: "Curacao", phone: "599" },
-  // {
-  //   code: "CX",
-  //   searchName: "Cook-Islands",
-  //   label: "Christmas Island",
-  //   phone: "61",
-  // },
   { code: "CY", searchName: "Cyprus", label: "Cyprus", phone: "357" },
   {
     code: "CZ",
@@ -262,7 +246,6 @@ const countries = [
     label: "French Guiana",
     phone: "594",
   },
-  // { code: "GG", searchName: "France", label: "Guernsey", phone: "44" },
   { code: "GH", searchName: "Ghana", label: "Ghana", phone: "233" },
   { code: "GI", searchName: "Gibraltar", label: "Gibraltar", phone: "350" },
   { code: "GL", searchName: "Greenland", label: "Greenland", phone: "299" },
@@ -276,12 +259,6 @@ const countries = [
     phone: "240",
   },
   { code: "GR", searchName: "Greece", label: "Greece", phone: "30" },
-  // {
-  //   code: "GS",
-  //   searchName: "Greece",
-  //   label: "South Georgia and the South Sandwich Islands",
-  //   phone: "500",
-  // },
   { code: "GT", searchName: "Guatemala", label: "Guatemala", phone: "502" },
   { code: "GU", searchName: "Guam", label: "Guam", phone: "1-671" },
   {
@@ -292,12 +269,6 @@ const countries = [
   },
   { code: "GY", searchName: "Guyana", label: "Guyana", phone: "592" },
   { code: "HK", searchName: "Hong-Kong", label: "Hong Kong", phone: "852" },
-  // {
-  //   code: "HM",
-  //   searchName: "Hong-Kong",
-  //   label: "Heard Island and McDonald Islands",
-  //   phone: "672",
-  // },
   { code: "HN", searchName: "Honduras", label: "Honduras", phone: "504" },
   { code: "HR", searchName: "Croatia", label: "Croatia", phone: "385" },
   { code: "HT", searchName: "Haiti", label: "Haiti", phone: "509" },
@@ -307,11 +278,6 @@ const countries = [
   { code: "IL", searchName: "Israel", label: "Israel", phone: "972" },
   { code: "IM", searchName: "Isle-of-Man", label: "Isle of Man", phone: "44" },
   { code: "IN", searchName: "India", label: "India", phone: "91" },
-  // {
-  //   code: "IO",
-  //   label: "British Indian Ocean Territory",
-  //   phone: "246",
-  // },
   { code: "IQ", searchName: "Iraq", label: "Iraq", phone: "964" },
   {
     code: "IR",
@@ -321,7 +287,6 @@ const countries = [
   },
   { code: "IS", searchName: "Iceland", label: "Iceland", phone: "354" },
   { code: "IT", searchName: "Italy", label: "Italy", phone: "39" },
-  // { code: "JE", searchName: "India", label: "Jersey", phone: "44" },
   { code: "JM", searchName: "Jamaica", label: "Jamaica", phone: "1-876" },
   { code: "JO", searchName: "Jordan", label: "Jordan", phone: "962" },
   {
@@ -420,12 +385,6 @@ const countries = [
   { code: "MM", searchName: "Myanmar", label: "Myanmar", phone: "95" },
   { code: "MN", searchName: "Mongolia", label: "Mongolia", phone: "976" },
   { code: "MO", searchName: "Macao", label: "Macao", phone: "853" },
-  // {
-  //   code: "MP",
-  //   searchName: "Macao",
-  //   label: "Northern Mariana Islands",
-  //   phone: "1-670",
-  // },
   { code: "MQ", searchName: "Martinique", label: "Martinique", phone: "596" },
   { code: "MR", searchName: "Mauritania", label: "Mauritania", phone: "222" },
   { code: "MS", searchName: "Montserrat", label: "Montserrat", phone: "1-664" },
@@ -444,7 +403,6 @@ const countries = [
     phone: "687",
   },
   { code: "NE", searchName: "Niger", label: "Niger", phone: "227" },
-  // { code: "NF", searchName: "Namibia", label: "Norfolk Island", phone: "672" },
   { code: "NG", searchName: "Nigeria", label: "Nigeria", phone: "234" },
   { code: "NI", searchName: "Nicaragua", label: "Nicaragua", phone: "505" },
   { code: "NL", searchName: "Netherlands", label: "Netherlands", phone: "31" },
@@ -477,7 +435,6 @@ const countries = [
     label: "Saint Pierre and Miquelon",
     phone: "508",
   },
-  // { code: "PN", searchName: "Pakistan", label: "Pitcairn", phone: "870" },
   { code: "PR", searchName: "Puerto Rico", label: "Puerto Rico", phone: "1" },
   {
     code: "PS",
@@ -489,7 +446,6 @@ const countries = [
   { code: "PW", searchName: "Palau", label: "Palau", phone: "680" },
   { code: "PY", searchName: "Paraguay", label: "Paraguay", phone: "595" },
   { code: "QA", searchName: "Qatar", label: "Qatar", phone: "974" },
-  // { code: "RE", searchName: "Pakistan", label: "Reunion", phone: "262" },
   { code: "RO", searchName: "Romania", label: "Romania", phone: "40" },
   { code: "RS", searchName: "Serbia", label: "Serbia", phone: "381" },
   {
@@ -522,12 +478,6 @@ const countries = [
     phone: "290",
   },
   { code: "SI", searchName: "Slovenia", label: "Slovenia", phone: "386" },
-  // {
-  //   code: "SJ",
-  //   searchName: "Pakistan",
-  //   label: "Svalbard and Jan Mayen",
-  //   phone: "47",
-  // },
   { code: "SK", searchName: "Slovakia", label: "Slovakia", phone: "421" },
   {
     code: "SL",
@@ -559,7 +509,6 @@ const countries = [
     label: "Syrian Arab Republic",
     phone: "963",
   },
-  // { code: "SZ", searchName: "Swaziland", label: "Swaziland", phone: "268" },
   {
     code: "TC",
     searchName: "Turks-and-Caicos",
@@ -576,14 +525,7 @@ const countries = [
   { code: "TG", searchName: "Togo", label: "Togo", phone: "228" },
   { code: "TH", searchName: "Thailand", label: "Thailand", phone: "66" },
   { code: "TJ", searchName: "Tajikistan", label: "Tajikistan", phone: "992" },
-  // { code: "TK", searchName: "Pakistan", label: "Tokelau", phone: "690" },
   { code: "TL", searchName: "Timor-Leste", label: "Timor-Leste", phone: "670" },
-  // {
-  //   code: "TM",
-  //   searchName: "Turkmenistan",
-  //   label: "Turkmenistan",
-  //   phone: "993",
-  // },
   { code: "TN", searchName: "Tunisia", label: "Tunisia", phone: "216" },
   { code: "TO", searchName: "Tonga", label: "Tonga", phone: "676" },
   { code: "TR", searchName: "Turkey", label: "Turkey", phone: "90" },
@@ -651,7 +593,6 @@ const countries = [
     phone: "681",
   },
   { code: "WS", searchName: "Samoa", label: "Samoa", phone: "685" },
-  // { code: "XK", searchName: "Kosovo", label: "Kosovo", phone: "383" },
   { code: "YE", searchName: "Yemen", label: "Yemen", phone: "967" },
   { code: "YT", searchName: "Mayotte", label: "Mayotte", phone: "262" },
   {

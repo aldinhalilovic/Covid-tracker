@@ -48,7 +48,7 @@ const CovidStatsCard = ({
             <div className="relative left-6 py-4 text-lg">
               Population:{" "}
               <span className="relative left-3 text-xl text-green-500 p-1 border-double border-4 border-green-700 rounded-lg">
-                {population}
+                {population?.toLocaleString()}
               </span>
             </div>
             <div className="relative left-6 py-4 text-lg">

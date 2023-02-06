@@ -53,25 +53,6 @@ export default function MaterialUIPickers({ dateFunc }) {
             <TextField {...params} sx={{ backgroundColor: "white" }} />
           )}
         />
-        {/* <MobileDatePicker
-          label="Date mobile"
-          inputFormat="MM/DD/YYYY"
-          value={value}
-          onChange={handleChange}
-          renderInput={(params) => <TextField {...params} />}
-        />
-        <TimePicker
-          label="Time"
-          value={value}
-          onChange={handleChange}
-          renderInput={(params) => <TextField {...params} />}
-        />
-        <DateTimePicker
-          label="Date&Time picker"
-          value={value}
-          onChange={handleChange}
-          renderInput={(params) => <TextField {...params} />}
-        /> */}
       </Stack>
     </LocalizationProvider>
   );

@@ -42,7 +42,6 @@ const HomePage = () => {
             className="w-full mt-5"
             style={{ height: "" }}
             src="https://www.bloomberg.com/graphics/2020-coronavirus-cases-world-map/img/2020-coronavirus-cases-world-map-facebook.png?t=202011091543"
-            // style={{ objectFit: "contain" }}
             alt="background"
           ></img>
           <h1
@@ -69,10 +68,12 @@ const HomePage = () => {
               <div style={{ fontSize: "20px" }}>
                 Recovered:
                 <div className="font-bold" style={{ color: "green" }}>
-                  {covidWorldStats.reduce(
-                    (prev, curr) => (prev += curr?.cases?.recovered || 0),
-                    0
-                  )}
+                  {covidWorldStats
+                    .reduce(
+                      (prev, curr) => (prev += curr?.cases?.recovered || 0),
+                      0
+                    )
+                    .toLocaleString()}
                 </div>
               </div>
             </div>
@@ -89,10 +90,12 @@ const HomePage = () => {
               <div style={{ fontSize: "20px" }}>
                 Deaths:
                 <div className="font-bold" style={{ color: "red" }}>
-                  {covidWorldStats.reduce(
-                    (prev, curr) => (prev += curr?.deaths?.total || 0),
-                    0
-                  )}
+                  {covidWorldStats
+                    .reduce(
+                      (prev, curr) => (prev += curr?.deaths?.total || 0),
+                      0
+                    )
+                    .toLocaleString()}
                 </div>
               </div>
             </div>
@@ -109,10 +112,12 @@ const HomePage = () => {
               <div style={{ fontSize: "20px" }}>
                 ActiveCases:
                 <div className="font-bold" style={{ color: "blue" }}>
-                  {covidWorldStats.reduce(
-                    (prev, curr) => (prev += curr?.cases?.active || 0),
-                    0
-                  )}
+                  {covidWorldStats
+                    .reduce(
+                      (prev, curr) => (prev += curr?.cases?.active || 0),
+                      0
+                    )
+                    .toLocaleString()}
                 </div>
               </div>
             </div>
@@ -138,23 +143,6 @@ const HomePage = () => {
       )}
     </>
   );
-}; /* {covidWorldStats.reduce(
-                  (prev, curr) => (prev += curr?.deaths?.total || 0),
-                  0
-                )} */
-/* {covidWorldStats.map((el) => (
-                  <p key={el.id}></p>
-                ))} */
-
-/* {covidWorldStats.reduce(
-                  (prev, curr) => (prev += curr?.cases?.recovered || 0),
-                  0
-                )} */
-/* {covidWorldStats.map((el) => (
-                  <p key={el.id}>{el.cases.recovered}</p>
-                ))} */
-/* {covidWorldStats.reduce(prev, (curr) => {
-                  prev + curr;
-                })} */
+};
 
 export default HomePage;

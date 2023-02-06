@@ -26,7 +26,7 @@ export default function StateCard({
           <div className="grid grid-cols-3 gap-6  pt-2 pb-2 rounded  justify-evenly">
             <h4 className="grid grid-rows-2  bg-white rounded-lg text-base pt-3 pb-3">
               <span className="inline-block text-2xl text-violet-500 font-bold text-center">
-                {new_cases}
+                {new_cases?.toLocaleString()}
               </span>
               <span className="inline-block text-gray-500 font-medium text-center">
                 New Cases{" "}
@@ -42,7 +42,7 @@ export default function StateCard({
             </h4>
             <h4 className="text-xl grid grid-rows-2  bg-white rounded-lg pt-3 pb-3">
               <span className="inline-block text-2xl text-green-500 font-bold text-center">
-                {new_recovered}
+                {Number(new_recovered)?.toLocaleString()}
               </span>
               <span className="inline-block text-base text-gray-500 font-medium text-center">
                 New Recovered{" "}
@@ -51,7 +51,7 @@ export default function StateCard({
           </div>
           <h4 className="text-xl grid grid-rows-2  bg-white rounded-lg p-3">
             <span className="inline-block text-2xl text-gray-500 font-bold text-center">
-              {total_active}
+              {total_active?.toLocaleString()}
             </span>
             <span className="inline-block text-base text-gray-600 font-medium text-center">
               Total Active
@@ -59,12 +59,6 @@ export default function StateCard({
           </h4>
         </div>
       ) : (
-        // <h4 className="text-xl grid grid-rows-2  bg-white rounded-lg p-3">
-        //   <span className="inline-block text-base text-gray-700 font-medium text-center">
-        //     Loading...
-        //   </span>
-        // </h4>
-
         <div className="grid grid-rows-2">
           <div className="grid grid-cols-3 gap-6  pt-2 pb-2 rounded  justify-evenly">
             <Skeleton variant="rounded" animation="wave" height={90} />
